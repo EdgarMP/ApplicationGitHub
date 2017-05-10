@@ -15,6 +15,10 @@ public class MainActivity extends AppCompatActivity {
         String mensaje = "Este es un nuevo método";
     }
 
+    public void metodoErrorEnProd(){
+        String mensaje = "Se creo este método para simular un error en producción";
+    }
+
     public boolean metodoBoolean(){
         boolean estaEsUnaVariableBoolean = true;
         return estaEsUnaVariableBoolean;
