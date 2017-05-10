@@ -14,4 +14,8 @@ public class MainActivity extends AppCompatActivity {
     public void nuevoMetodo(){
         String mensaje = "Este es un nuevo método";
     }
+
+    public void metodoErrorEnProd(){
+        String mensaje = "Se creo este método para simular un error en producción";
+    }
 }
