@@ -14,4 +14,9 @@ public class MainActivity extends AppCompatActivity {
     public void nuevoMetodo(){
         String mensaje = "Este es un nuevo método";
     }
+
+    public boolean metodoBoolean(){
+        boolean estaEsUnaVariableBoolean = true;
+        return estaEsUnaVariableBoolean;
+    }
 }
